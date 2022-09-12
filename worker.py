@@ -15,3 +15,23 @@ from stringlib import *
 #Your method can call the needed function in the stringlib
 #module.
 
+class Worker:
+    def __init__(self, inputStr):
+        self.inputStr = inputStr
+
+    def reverseStr(self):
+        inputStr = self.inputStr
+        return reverseStr(inputStr)
+
+    def containsWord(self, containedStr):
+        inputStr = self.inputStr
+        return containsWord(inputStr, containedStr)
+
+    def isPalindrome(self):
+        inputStr = self.inputStr
+        return isPalindrome(inputStr)
+
+    def upperCaseStr(self):
+        inputStr = self.inputStr
+        return upperCaseStr(inputStr)
+
